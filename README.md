@@ -1,21 +1,27 @@
 
-# File Sorter and Koch Snowflake
+# File Organizer and Koch Snowflake Visualizer
 
-This repository contains two independent Python scripts:
+This project consists of two independent tasks, each in its own folder:
 
-1. **main.py** – Recursively sorts files from a source directory into subdirectories based on file extension.
-2. **snowflake.py** – Uses Turtle graphics to draw a recursive Koch snowflake fractal.
-
----
-
-## Contents
-
-- main.py
-- snowflake.py
+- `task_1/`: A file sorting utility that organizes files by extension.
+- `task_2/`: A fractal visualizer that draws a Koch snowflake using Turtle graphics.
 
 ---
 
-## 1. File Sorter (`main.py`)
+## Directory Structure
+
+```
+
+.
+├── task_1/
+│   └── main.py
+├── task_2/
+│   └── snowflake.py
+
+````
+---
+
+## Task 1: File Sorter (`task_1/main.py`)
 
 ### Description
 
@@ -40,7 +46,7 @@ This will sort files from `Downloads` into folders like `Sorted/pdf`, `Sorted/mp
 
 ---
 
-## 2. Koch Snowflake (`snowflake.py`)
+## Task 2: Koch Snowflake (`task_2/snowflake.py`)
 
 ### Description
 
