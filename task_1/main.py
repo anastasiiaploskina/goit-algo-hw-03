@@ -7,7 +7,7 @@ def parse_args():
     """ Parse given arguments """
     parser = argparse.ArgumentParser(
         description="Recursively copy folder and sort files by extension",
-        usage="<source> [destination]",
+        usage="python3 main.py <source> [destination]",
         add_help=True
     )
 
